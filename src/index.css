@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.jumbotron{
+  background:linear-gradient(to right,red,yellow)
+}
+.jumbotron2{
+  background:linear-gradient(to bottom,red,pink)
+}
+
+.row {
+  margin-top:1rem;
+  width: 50%;
+  background-color: blueviolet;
+  border-width: 1px;
+  border-top: 1px;
+  border-style: solid;
+}
+
+.col{
+  border-width: 1px;
+  border-top: 1px;
+  border-style: solid; 
+}
+
+.searchForm{
+  height:80px !important;
+  font-size:50px;
+}
+
+.searchBtn{
+  height:80px;
+  width:200px;
+}
