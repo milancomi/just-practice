@@ -30,7 +30,6 @@ function isSearched(searchTerm){
   }
 }
 
-
 class App extends Component {
 
   constructor(props)
