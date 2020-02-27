@@ -5,7 +5,7 @@ import './App.css';
 import { render } from '@testing-library/react';
 import list from './list.js';
 
-// HIGH ORDER Function
+// HIGH ORDER Function c
 function isSearched(searchTerm){
   return function(item){
     return !searchTerm || item.title.toLowerCase().includes(searchTerm.toLowerCase());
